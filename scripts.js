@@ -1,1 +1,3 @@
-/* Add your JavaScript to this file */
+document.addEventListener("OnLoaded", function(){
+
+})

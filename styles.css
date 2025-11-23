@@ -1,11 +1,81 @@
-/* Add your CSS to this file */
-body {
-    margin: 0;
-    font-size: 16px;
+html{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	font-size: 18px;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+/* header */
+header{
+	border: 2px dashed red;
+	background-color: white;
+	font-size: 18px;
+}
+
+nav>ul>li{
+	color: #6b7280;
+}
+nav>ul>li:hover{
+	color: #5A67D8;
+}
+
+/* Section Overview */
+section.overview-hero{
+	border: 4px dashed blue;
+	background-color: #e2e8f0;
+}
+
+/*Section Learn-About*/
+section.learn-about{
+	border: 8px dashed green;
+	
+}
+section.learn-about>h2{
+	font-size: 24px;
+	color: #48bb78;
+}
+section.learn-about>h3{
+	color: #48bb78;
+	font-size: 21px;
+}
+
+/*Section Testing*/
+section.testing{
+	border: 2px dashed red;
+	background-color: #4a5569;
+	color: white
+
+}
+.cta{
+	background-color:#48bb78;
+	border-radius: 5px;
+}
+
+/*Section Stories*/
+section.stories{
+	border: 4px dashed blue;
+	
+}
+section.stories>h3, div>p>a[href]{
+	color: #5a67d8;
+	font-size: 18px;
+}
+
+article>img{
+	border-radius: 150px;
+}
+
+/*Section newsletter*/
+section.newsletter{
+	border: 8px dashed green;
+	background-color: #48bb78;
+	color: white;
+}
+
+section.newsletter>form>button.btn{
+	background-color: #5a67d8;
+}
+
+/*Footer*/
+footer{
+	background-color: #4a5568;
+	color: white;
 }
