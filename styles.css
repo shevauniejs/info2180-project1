@@ -5,13 +5,12 @@ html{
 
 /* header */
 header{
-	border: 2px dashed red;
 	background-color: white;
 	font-size: 18px;
 }
 header>div{
 	display: flex;
-	gap:350px;
+	gap:750px;
 }
 header>div>h1{
 	align-self:left;
@@ -24,18 +23,40 @@ header>div>nav{
 header>div>nav>ul{
 	list-style-type: none;
 }
-header>div>nav>ul>li{
+header>div>nav>ul>li,  header>div>nav>ul>li>a{
 	color: #6b7280;
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;	
 }
 
-header>div>nav>ul>li:hover{
+header>div>nav>ul>li>a:hover{
 	color: #5A67D8;
 }
 
+
 /* Section Overview */
 section.overview-hero{
-	border: 4px dashed blue;
 	background-color: #e2e8f0;
+}
+
+section.overview-hero>div{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+section.overview-hero>div>div.overview-hero-image{
+	padding: 70px 100px 70px 200px;	
+}
+
+section.overview-hero>div>div>img{
+	border-radius: 20px;
+}
+
+section.overview-hero>div>div.overview-hero-text{
+	padding: 70px 300px 70px 0px;
 }
 
 /*Section Learn-About*/
