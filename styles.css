@@ -88,14 +88,34 @@ div.card-body>p, div.card-body>h3{
 }
 /*Section Testing*/
 section.testing{
-	border: 2px dashed red;
 	background-color: #4a5569;
 	color: white
-
 }
+
+section.testing>div.container{
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  gap: 60px;
+  height: 300px;
+}
+section.testing>div>div.testing-desciption{
+  padding: 70px 100px 50px 300px;
+}
+
 .cta{
 	background-color:#48bb78;
-	border-radius: 5px;
+	border-radius: 5px; 
+	position:relative;
+	top: 100px;
+  width: 200px;
+  height: 50px;
+}
+
+.cta>a{
+  	text-decoration: none;
+  	color: inherit;
+  	position: absolute;
+  	padding: 15px 0px 0px 50px;
 }
 
 /*Section Stories*/
