@@ -62,17 +62,31 @@ section.overview-hero>div>div.overview-hero-text{
 /*Section Learn-About*/
 section.learn-about{
 	border: 8px dashed green;
-	
+	padding: 0px 200px 70px 200px;
 }
+
+section.learn-about>div>div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+}
+
+section.learn-about>div>div>div.card{
+	border-style: outset;
+	border-radius: 10px;
+	}
 section.learn-about>h2{
 	font-size: 24px;
 	color: #48bb78;
 }
-section.learn-about>h3{
+div.card-body>h3{
 	color: #48bb78;
 	font-size: 21px;
 }
 
+div.card-body>p, div.card-body>h3{
+	padding: 10px 10px 10px 10px;
+}
 /*Section Testing*/
 section.testing{
 	border: 2px dashed red;
