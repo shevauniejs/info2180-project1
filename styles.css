@@ -120,8 +120,8 @@ section.testing>div>div.testing-desciption{
 	border-radius: 5px; 
 	position:relative;
 	top: 100px;
-  width: 200px;
-  height: 50px;
+ 	width: 200px;
+ 	height: 50px;
 }
 
 .cta>a{
@@ -154,8 +154,8 @@ div>p>a[href]{
 }
 
 article>img{
-  float: left;
-  margin-right: 40px;
+  	float: left;
+  	margin-right: 40px;
 	border-radius: 150px;
 	height: 200px;
 	width: 200px;
@@ -169,7 +169,7 @@ section.newsletter{
 }
 section.newsletter>div.container{
 	display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
 	color: white;
 	padding-top: 20px;
 	padding-left: 450px;
@@ -211,6 +211,10 @@ button.btn{
 	height: 50px;
 	color: inherit;
 	font-size: 18px;
+}
+
+.btn:hover{
+  background-color: #5a40d8;
 }
 
 /*Footer*/
