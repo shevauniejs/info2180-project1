@@ -75,7 +75,7 @@ section.learn-about>div>div>div.card{
 	border-style: outset;
 	border-radius: 10px;
 	}
-section.learn-about>h2{
+section.learn-about>div>h2{
 	font-size: 24px;
 	color: #48bb78;
 }
