@@ -52,7 +52,9 @@ section.overview-hero>div>div.overview-hero-image{
 }
 
 section.overview-hero>div>div>img{
-	border-radius: 20px;
+	border-radius: 5px;
+	height:270px; 
+	width:300px;
 }
 
 section.overview-hero>div>div.overview-hero-text{
@@ -67,13 +69,18 @@ section.learn-about{
 section.learn-about>div>div{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 20px;
 }
 
 section.learn-about>div>div>div.card{
 	border-style: outset;
 	border-radius: 10px;
+	width: 330px;
 	}
+	
+div.card>img{
+  height: 250px;
+  width: 300px;
+}
 section.learn-about>div>h2{
 	font-size: 24px;
 	color: #48bb78;
@@ -83,9 +90,14 @@ div.card-body>h3{
 	font-size: 21px;
 }
 
-div.card-body>p, div.card-body>h3{
-	padding: 10px 10px 10px 10px;
+div.card-body>h3{
+	padding: 10px 10px 0px 10px;
 }
+
+div.card-body>p{
+	padding: 0px 10px 5px 10px;
+}
+
 /*Section Testing*/
 section.testing{
 	background-color: #4a5569;
@@ -120,16 +132,32 @@ section.testing>div>div.testing-desciption{
 
 /*Section Stories*/
 section.stories{
-	border: 4px dashed blue;
-	
+	padding: 90px 300px 90px 250px;
 }
-section.stories>h3, div>p>a[href]{
+
+.stories>div.container{
+	display: grid;
+	grid-template-rows: .2fr 1fr 1fr;
+	gap: 50px;
+}
+.stories>div>h2, div>p>a[href]{
 	color: #5a67d8;
-	font-size: 18px;
+}
+
+div>p>a[href]{
+  	text-decoration: none;
+ }
+ 
+.article-body>h3{
+  	font-size: 18px;
 }
 
 article>img{
+  float: left;
+  margin-right: 40px;
 	border-radius: 150px;
+	height: 200px;
+	width: 200px;
 }
 
 /*Section newsletter*/
