@@ -1,6 +1,7 @@
 html{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 	font-size: 18px;
+	display: flex;
 }
 
 /* header */
@@ -161,18 +162,63 @@ article>img{
 }
 
 /*Section newsletter*/
+
 section.newsletter{
-	border: 8px dashed green;
 	background-color: #48bb78;
+	height: 300px;
+}
+section.newsletter>div.container{
+	display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 	color: white;
+	padding-top: 20px;
+	padding-left: 450px;
 }
 
-section.newsletter>form>button.btn{
+section.newsletter>div.container>h3{
+  padding-left: 125px;
+  margin-top: 35px;
+}
+section.newsletter>div.container>p{
+  margin-top: 0px;
+  width: 500px;
+}
+
+section.newsletter>div.container>form{
+  display: grid;
+  height: 60px;
+  width: 550px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[placeholder]{
+  padding-left: 15px;
+  font-size: 18px;
+}
+button.btn{
 	background-color: #5a67d8;
+	border: none;
+	border-radius: 5px;
+	width: 200px;
+	height: 50px;
+	color: inherit;
+	font-size: 18px;
 }
 
 /*Footer*/
 footer{
 	background-color: #4a5568;
 	color: white;
+}
+
+footer>div>p{
+  	margin: 0px;
 }
