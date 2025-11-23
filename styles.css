@@ -9,11 +9,26 @@ header{
 	background-color: white;
 	font-size: 18px;
 }
+header>div{
+	display: flex;
+	gap:350px;
+}
+header>div>h1{
+	align-self:left;
+}
 
-nav>ul>li{
+header>div>nav{
+	align-self: right;
+}
+
+header>div>nav>ul{
+	list-style-type: none;
+}
+header>div>nav>ul>li{
 	color: #6b7280;
 }
-nav>ul>li:hover{
+
+header>div>nav>ul>li:hover{
 	color: #5A67D8;
 }
 
